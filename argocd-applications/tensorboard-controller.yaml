@@ -4,7 +4,7 @@ metadata:
   name: tensorboards-controller
   namespace: argocd
 spec:
-  project: defaulta
+  project: default
   source:
     repoURL: https://github.com/ybudnyi/manifests.git
     targetRevision: HEAD
