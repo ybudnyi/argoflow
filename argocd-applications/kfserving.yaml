@@ -10,7 +10,7 @@ spec:
     targetRevision: HEAD
     path: contrib/kserve/kserve
     kustomize:
-
+      version:
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:

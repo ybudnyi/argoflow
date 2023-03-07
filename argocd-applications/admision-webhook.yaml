@@ -10,7 +10,7 @@ spec:
     targetRevision: HEAD
     path: apps/admission-webhook/upstream/overlays/cert-manager
     kustomize:
-
+      version:
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
