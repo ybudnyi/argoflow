@@ -10,7 +10,7 @@ spec:
     targetRevision: HEAD
     path: apps/volumes-web-app/upstream/overlays/istio
     kustomize:
-
+      version: v5.0.0
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:

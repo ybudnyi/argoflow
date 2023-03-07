@@ -10,7 +10,7 @@ spec:
     targetRevision: HEAD
     path: contrib/kserve/models-web-app/overlays/kubeflow
     kustomize:
-
+      version: v5.0.0
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:

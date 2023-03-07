@@ -10,7 +10,7 @@ spec:
     targetRevision: HEAD
     path: common/kubeflow-namespace/base
     kustomize:
-
+      version: v5.0.0
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
