@@ -10,7 +10,7 @@ spec:
     targetRevision: HEAD
     path: apps/jupyter/notebook-controller/upstream/overlays/kubeflow
     kustomize:
-      version:
+
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:

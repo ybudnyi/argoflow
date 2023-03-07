@@ -10,7 +10,7 @@ spec:
     targetRevision: HEAD
     path: common/cert-manager/cert-manager/base
     kustomize:
-      version:
+
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:

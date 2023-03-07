@@ -10,7 +10,7 @@ spec:
     targetRevision: HEAD
     path: common/istio-1-16/cluster-local-gateway/base
     kustomize:
-      version:
+
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:

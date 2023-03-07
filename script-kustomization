@@ -1,24 +1,24 @@
-argocd-applications/cert-manager.yaml
-argocd-applications/cert-manager-issuer.yaml
-argocd-applications/dex-istio.yaml
-argocd-applications/oidc-authservice.yaml
-argocd-applications/knative.yaml
-argocd-applications/knative-istio.yaml
-argocd-applications/kubeflow-namespace.yaml
-argocd-applications/kubeflow-roles-namespaces.yaml
-argocd-applications/istio-resources.yaml
-argocd-applications/pipelines.yaml
-argocd-applications/kfserving.yaml
-argocd-applications/kfserving-model.yaml
-argocd-applications/katib.yaml
-argocd-applications/central-dashboard.yaml
-argocd-applications/admision-webhook.yaml
-argocd-applications/notebook-controller.yaml
-argocd-applications/jupyter-web-app.yaml
-argocd-applications/profile-controller_access-management.yaml
-argocd-applications/volumes-web-app.yaml
-argocd-applications/tensorboards-web-app.yaml
-argocd-applications/tensorboard-controller.yaml
-argocd-applications/trainning-operator.yaml
-argocd-applications/user-namespace.yaml
+kubectl apply -f argocd-applications/cert-manager.yaml
+kubectl apply -f argocd-applications/cert-manager-issuer.yaml
+kubectl apply -f argocd-applications/dex-istio.yaml
+kubectl apply -f argocd-applications/oidc-authservice.yaml
+kubectl apply -f argocd-applications/knative.yaml
+kubectl apply -f argocd-applications/knative-istio.yaml
+kubectl apply -f argocd-applications/kubeflow-namespace.yaml
+kubectl apply -f argocd-applications/kubeflow-roles-namespaces.yaml
+kubectl apply -f argocd-applications/istio-resources.yaml
+kubectl apply -f argocd-applications/pipelines.yaml
+kubectl apply -f argocd-applications/kfserving.yaml
+kubectl apply -f argocd-applications/kfserving-model.yaml
+kubectl apply -f argocd-applications/katib.yaml
+kubectl apply -f argocd-applications/central-dashboard.yaml
+kubectl apply -f argocd-applications/admision-webhook.yaml
+kubectl apply -f argocd-applications/notebook-controller.yaml
+kubectl apply -f argocd-applications/jupyter-web-app.yaml
+kubectl apply -f argocd-applications/profile-controller_access-management.yaml
+kubectl apply -f argocd-applications/volumes-web-app.yaml
+kubectl apply -f argocd-applications/tensorboards-web-app.yaml
+kubectl apply -f argocd-applications/tensorboard-controller.yaml
+kubectl apply -f argocd-applications/trainning-operator.yaml
+kubectl apply -f argocd-applications/user-namespace.yaml
 
