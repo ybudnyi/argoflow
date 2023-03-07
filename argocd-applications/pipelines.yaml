@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/ybudnyi/manifests.git
+    repoURL: https://github.com/ybudnyi/kubeflow-1.6.git
     targetRevision: HEAD
     path: apps/pipeline/upstream/env/cert-manager/platform-agnostic-multi-user
     kustomize:
