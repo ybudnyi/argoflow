@@ -4,13 +4,12 @@ metadata:
   name: kubeflow
   namespace: argocd
 spec:
-  project: default
+  project: kubeflow
   source:
     repoURL: https://github.com/ybudnyi/argoflow.git
     targetRevision: HEAD
     path: .
     kustomize:
-      version: v4.0.5
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
