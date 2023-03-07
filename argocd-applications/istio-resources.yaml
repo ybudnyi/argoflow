@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/ybudnyi/kubeflow-1.6.git
     targetRevision: HEAD
-    path: common/istio-1-9/kubeflow-istio-resources/base
+    path: common/istio-1-14/kubeflow-istio-resources/base
     kustomize:
       version: v5.0.0
   destination:
