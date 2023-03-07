@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/ybudnyi/manifests.git
     targetRevision: HEAD
-    path: common/istio-1-16/kubeflow-istio-resources/base
+    path: common/istio-1-9/kubeflow-istio-resources/base
     kustomize:
       version: v5.0.0
   destination:
