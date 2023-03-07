@@ -6,11 +6,11 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/kubeflow/manifests.git
+    repoURL: https://github.com/ybudnyi/manifests.git
     targetRevision: HEAD
     path: apps/admission-webhook/upstream/overlays/cert-manager
     kustomize:
-      version: v4.0.5
+
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:

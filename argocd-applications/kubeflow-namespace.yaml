@@ -1,16 +1,16 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: kubeflow-roles-namespaces
+  name: kubeflow-roles
   namespace: argocd
 spec:
   project: default
   source:
-    repoURL: https://github.com/kubeflow/manifests.git
+    repoURL: https://github.com/ybudnyi/manifests.git
     targetRevision: HEAD
     path: common/kubeflow-namespace/base
     kustomize:
-      version: v4.0.5
+
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
