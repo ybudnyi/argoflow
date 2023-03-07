@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/ybudnyi/argoflow.git
+    repoURL: https://github.com/kubeflow/manifests.git
     targetRevision: HEAD
-    path: kubeflow/notebooks/central-dashboard
+    path: apps/centraldashboard/upstream/overlays/kserve
     kustomize:
       version: v4.0.5
   destination:

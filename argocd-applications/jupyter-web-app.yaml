@@ -1,14 +1,14 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: jupyter-web-app
+  name: jupyter-web-app 
   namespace: argocd
 spec:
   project: default
   source:
-    repoURL: https://github.com/ybudnyi/argoflow.git
+    repoURL: https://github.com/kubeflow/manifests.git
     targetRevision: HEAD
-    path: kubeflow/notebooks/jupyter-web-app
+    path: apps/jupyter/jupyter-web-app/upstream/overlays/istio
     kustomize:
       version: v4.0.5
   destination:

@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/kubeflow/manifests.git
     targetRevision: HEAD
-    path: common/kubeflow-roles/base
+    path: common/kubeflow-namespace/base
     kustomize:
       version: v4.0.5
   destination:

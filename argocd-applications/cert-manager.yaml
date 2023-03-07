@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/ybudnyi/argoflow.git
+    repoURL: https://github.com/kubeflow/manifests.git
     targetRevision: HEAD
-    path: cert-manager
+    path: common/cert-manager/cert-manager/base
     kustomize:
       version: v4.0.5
   destination:

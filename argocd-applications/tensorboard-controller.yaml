@@ -4,11 +4,11 @@ metadata:
   name: tensorboards-controller
   namespace: argocd
 spec:
-  project: default
+  project: defaulta
   source:
-    repoURL: https://github.com/ybudnyi/argoflow.git
+    repoURL: https://github.com/kubeflow/manifests.git
     targetRevision: HEAD
-    path: kubeflow/notebooks/tensorboard-controller
+    path: apps/tensorboard/tensorboard-controller/upstream/overlays/kubeflow
     kustomize:
       version: v4.0.5
   destination:

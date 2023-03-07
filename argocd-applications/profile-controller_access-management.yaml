@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/ybudnyi/argoflow.git
+    repoURL: https://github.com/kubeflow/manifests.git
     targetRevision: HEAD
-    path: kubeflow/notebooks/profile-controller_access-management
+    path: apps/profiles/upstream/overlays/kubeflow
     kustomize:
       version: v4.0.5
   destination:
